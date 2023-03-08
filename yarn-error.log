@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/daryamazaleuskaya/projects/flutter/bin:/Users/daryamazaleuskaya/projects/flutter/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/daryamazaleuskaya/projects/js-mocking/package.json: Unexpected token } in JSON at position 461
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "js-mocking",
+    "version": "1.0.0",
+    "description": "JavaScript Mocking",
+    "private": true,
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-core": "^6.26.3",
+      "babel-preset-env": "^1.7.0",
+      "create-jest-runner": "^0.7.0",
+      "glob": "^7.1.6",
+      "jest": "^26.6.3"
+    },
+    "scripts": {
+      "test": "jest",
+      "test:watch": "jest --watch"
+    },
+    "repository": {
+      "type": "git",
+    },
+    "keywords": [],
+    "author": "",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
